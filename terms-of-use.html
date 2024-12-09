@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>WebFikir</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                role="status"
+                style="width: 3rem; height: 3rem"
+            ></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid py-2 d-none d-lg-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <small class="me-3">
+                            <i class="fa fa-map-marker-alt me-2"></i>Esentepe,
+                            Istanbloom Plaza, Kore Şehitleri Cd. No:16-1 Kat:5
+                            D:47, 34394 Şişli/İstanbul, Türkiye
+                        </small>
+                    </div>
+                    <nav class="breadcrumb mb-0">
+                        <small class="me-3">
+                            <i class="fa fa-clock me-2"></i>Pzt-Cum 09:00-17:00
+                        </small>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Brand Start -->
+        <div
+            class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex"
+        >
+            <div class="container pb-2">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex">
+                        <i class="bi bi-telephone-inbound fs-2"></i>
+                        <div class="ms-3">
+                            <h5 class="text-white mb-0">Bize Ulaşın</h5>
+                            <span>+908502599400</span>
+                        </div>
+                    </div>
+                    <a href="index.html" class="h1 text-white mb-0"
+                        >Web<span class="text-dark">Fikir</span></a
+                    >
+                    <div class="d-flex">
+                        <i class="bi bi-envelope fs-2"></i>
+                        <div class="ms-3">
+                            <h5 class="text-white mb-0">
+                                Bize E-posta Gönderin
+                            </h5>
+                            <span>web_fikir@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Brand End -->
+
+        <div class="container-fluid sticky-top">
+            <div class="container">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3"
+                >
+                    <button
+                        type="button"
+                        class="navbar-toggler me-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Anasayfa</a
+                            >
+                            <a href="#about" class="nav-item nav-link"
+                                >Hakkımızda</a
+                            >
+                            <a href="#service" class="nav-item nav-link"
+                                >Hizmetlerimiz</a
+                            >
+                            <a href="#testimonial" class="nav-item nav-link"
+                                >Yorumlar</a
+                            >
+                            <a href="#contact" class="nav-item nav-link"
+                                >İletişim</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <main>
+            <article
+                class="container additional-wrapper"
+                style="margin-top: 20px"
+            >
+                <div class="page__content" style="padding: 20px 0px">
+                    <h1>Kullanım Şartları</h1>
+
+                    <h2>1. Şartların Kabulü</h2>
+                    <p>
+                        Web sitemize veya dijital ajans hizmetlerimize erişerek
+                        veya kullanarak bu Kullanım Şartları ve Gizlilik
+                        Politikasına uymayı kabul edersiniz. Bu şartları kabul
+                        etmiyorsanız, lütfen web sitemizi veya hizmetlerimizi
+                        kullanmayın.
+                    </p>
+
+                    <h2>2. Hizmetlerimizin Kullanımı</h2>
+                    <p>
+                        Hizmetlerimizi yasal amaçlarla ve geçerli yasalara ve
+                        düzenlemelere uygun olarak kullanmayı kabul edersiniz.
+                        Aşağıdaki eylemleri gerçekleştiremezsiniz:
+                    </p>
+                    <ul>
+                        <li>
+                            Hizmetlerimizi web sitemize veya hizmetlerimize
+                            zarar vermek amacıyla kullanmak
+                        </li>
+                        <li>
+                            Web sitemize veya hizmetlerimize yetkisiz erişim
+                            sağlamaya çalışmak
+                        </li>
+                        <li>
+                            Hizmetlerimizi dolandırıcılık yapmak için kullanmak
+                        </li>
+                        <li>
+                            Web sitemizden veya hizmetlerimizden herhangi bir
+                            kısmı izinsiz çoğaltmak, satmak veya kullanmak
+                        </li>
+                    </ul>
+
+                    <h2>3. Fikri Mülkiyet Hakları</h2>
+                    <p>
+                        Web sitemizdeki tüm içerikler, metinler, grafikler,
+                        logolar ve görseller telif hakkı ve diğer fikri mülkiyet
+                        yasalarıyla korunmaktadır. Web sitemiz ve hizmetlerimiz
+                        üzerindeki tüm fikri mülkiyet haklarının bize veya
+                        lisans verenlerimize ait olduğunu kabul edersiniz.
+                    </p>
+                    <p>
+                        Kişisel veya iç iş amaçlarıyla web sitemize ve
+                        hizmetlerimize erişim ve kullanım için sınırlı,
+                        devredilemez bir lisans verilir. Bu lisans, aşağıdaki
+                        eylemleri yapmanıza izin vermez:
+                    </p>
+                    <ul>
+                        <li>
+                            Web sitemizi veya hizmetlerimizi değiştirmek veya
+                            üzerinde değişiklik yapmak
+                        </li>
+                        <li>
+                            Web sitemiz veya hizmetlerimiz üzerine türev eserler
+                            yaratmak
+                        </li>
+                        <li>
+                            Web sitemizi veya hizmetlerimizi ticari amaçlarla
+                            kullanmak
+                        </li>
+                    </ul>
+
+                    <h2>4. Kullanıcı Katkıları</h2>
+                    <p>
+                        Web sitemiz, kullanıcıların içerik (geribildirim,
+                        yorumlar, öneriler vb.) göndermelerine izin verebilir.
+                        Web sitemize içerik göndererek, bu içeriği kullanmamız,
+                        çoğaltmamız, değiştirmemiz, yayınlamamız, tercüme
+                        etmemiz, dağıtmamız ve sergilememiz için sürekli, geri
+                        alınamaz, dünya çapında ve telif ücreti ödemeksizin bir
+                        lisans vermiş olursunuz.
+                    </p>
+
+                    <h2>5. Sorumluluğun Sınırlandırılması</h2>
+                    <p>
+                        Web sitemizdeki bilgilerin doğru ve güncel olmasına özen
+                        gösteriyoruz ancak herhangi bir içeriğin doğruluğunu,
+                        tamlığını veya güvenilirliğini garanti etmiyoruz. Web
+                        sitemizi ve hizmetlerimizi kullanmanız tamamen sizin
+                        sorumluluğunuzdadır. Yasal olarak izin verilen en geniş
+                        ölçüde, tüm garanti ve yükümlülüklerden feragat ederiz.
+                    </p>
+                    <p>
+                        Hiçbir durumda, web sitemizi veya hizmetlerimizi
+                        kullanımınızla bağlantılı olarak doğrudan, dolaylı,
+                        tesadüfi, özel veya cezai zararlar için sorumlu
+                        olmayacağız.
+                    </p>
+
+                    <h2>6. Tazminat</h2>
+                    <p>
+                        Bu Kullanım Şartlarını ihlal etmeniz veya web
+                        sitemizi/hizmetlerimizi kullanmanız nedeniyle
+                        doğabilecek her türlü talep, zarar, dava veya masraf
+                        için şirketimizi tazmin etmeyi kabul edersiniz.
+                    </p>
+
+                    <h2>7. Geçerli Hukuk ve Uyuşmazlık Çözümü</h2>
+                    <p>
+                        Bu Kullanım Şartları, [Ülkeniz] yasalarına göre
+                        düzenlenecek ve yorumlanacaktır. Bu şartlarla ilgili
+                        herhangi bir uyuşmazlık yalnızca yerel mahkemelerde
+                        çözülecektir.
+                    </p>
+
+                    <h2>8. Bu Şartların Değiştirilmesi</h2>
+                    <p>
+                        Bu Kullanım Şartları, önceden bildirimde bulunmaksızın
+                        zaman zaman güncellenebilir. Herhangi bir değişiklik,
+                        revize edilmiş şartların web sitemizde yayımlanmasıyla
+                        derhal geçerli olacaktır.
+                    </p>
+
+                    <h2>9. Bölünebilirlik</h2>
+                    <p>
+                        Bu Kullanım Şartlarının herhangi bir hükmü geçersiz,
+                        yasa dışı veya uygulanamaz bulunursa, geri kalan
+                        hükümler tam olarak geçerliliğini sürdürecektir.
+                    </p>
+
+                    <h2>10. Tam Anlaşma</h2>
+                    <p>
+                        Bu Kullanım Şartları, Gizlilik Politikanız ile birlikte,
+                        web sitemizi ve hizmetlerimizi kullanmanızla ilgili
+                        olarak sizinle aramızdaki tüm anlaşmayı oluşturur.
+                    </p>
+
+                    <h2>11. Bize Ulaşın</h2>
+                    <p>
+                        Bu Kullanım Şartları ile ilgili sorularınız için lütfen
+                        bize elevate_advisors@gmail.com adresinden ulaşın.
+                    </p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row g-5 py-5">
+                    <div class="col-lg-6 pe-lg-5">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="h1 text-primary mb-0">
+                                Web<span class="text-white">Fikir</span>
+                            </h1>
+                        </a>
+                        <p class="fs-5 mb-4">
+                            Dijital ajans dünyasında yeni başlayanlara yönelik
+                            ücretsiz bir tanıtım kursu sunan web sitemize hoş
+                            geldiniz! Dijital ajans uygulamaları ve süreç
+                            optimizasyonu hakkında sağlam bir temel kazanmak
+                            isteyen herkes için yardımcı olmaktan gurur
+                            duyuyoruz. Uzman ekibimiz, her adımda kaliteli
+                            materyaller ve destek sunmaktadır.
+                        </p>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-2"></i>Esentepe,
+                            Istanbloom Plaza, Kore Şehitleri Cd. No:16-1 Kat:5
+                            D:47, 34394 Şişli/İstanbul, Türkiye
+                        </p>
+                        <p><i class="fa fa-phone-alt me-2"></i>+908502599400</p>
+                        <p>
+                            <i class="fa fa-envelope me-2"></i
+                            >elevate_advisors@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="row g-5">
+                            <div class="col-sm-6">
+                                <h4 class="text-light mb-4">Hızlı Linkler</h4>
+                                <a class="btn btn-link" href="index.html"
+                                    >Ana Sayfa</a
+                                >
+                                <a
+                                    class="btn btn-link"
+                                    href="index.html#contact"
+                                    >İletişim</a
+                                >
+                                <a class="btn btn-link" href="index.html#about"
+                                    >Hakkımızda</a
+                                >
+                                <a class="btn btn-link" href="terms-of-use.html"
+                                    >Kullanım Şartları</a
+                                >
+                                <a
+                                    class="btn btn-link"
+                                    href="privacy-policy.html"
+                                    >Gizlilik Politikası</a
+                                >
+                            </div>
+
+                            <div class="col-sm-6">
+                                <h4 class="text-light mb-4">
+                                    Popüler Hizmetler
+                                </h4>
+                                <a class="btn btn-link"
+                                    >Başlangıç Düzeyinde Dijital Ajans
+                                    Eğitimleri</a
+                                >
+                                <a class="btn btn-link"
+                                    >Dijital Pazarlama Teknikleri</a
+                                >
+                                <a class="btn btn-link"
+                                    >Pratik Dijital Ajans Becerileri Kursu</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Çerez Onayı</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Bu web sitesi, size üstün ve daha alakalı bir gezinme
+                    deneyimi sunmak için çerezler kullanmaktadır.
+                    <a href="#">Daha fazla bilgi...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Kabul Et</button>
+                <button class="cookie-button" id="declineBtn">Reddet</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
